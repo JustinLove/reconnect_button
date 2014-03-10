@@ -6,7 +6,7 @@
   ],
   "context": "client",
   "date": "2014/03/09",
-  "description": "Monitor your game connection status from the start menu, so you know when it's safe to start a game without fear of reconnecting to the wrong one.",
+  "description": "Provides a Reconnect button on the start menu.  When it's disabled, you know it's safe to start a game without fear of reconnecting to the wrong one.",
   "display_name": "Reconnect Button",
   "enabled": true,
   "forum": null,
