@@ -1,0 +1,24 @@
+{
+  "author": "wondible",
+  "build": "62519",
+  "category": [
+    "ui"
+  ],
+  "context": "client",
+  "date": "2014/03/09",
+  "description": "Monitor your game connection status from the start menu, so you know when it's safe to start a game without fear of reconnecting to the wrong one.",
+  "display_name": "Menu Connection Monitor",
+  "enabled": true,
+  "forum": null,
+  "id": "menu_connection_monitor",
+  "identifier": "com.wondible.pa.menu_connection_monitor",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "start": [
+      "coui://ui/mods/menu_connection_monitor/menu_connection_monitor.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.0.0"
+}
