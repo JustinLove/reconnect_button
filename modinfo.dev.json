@@ -7,16 +7,16 @@
   "context": "client",
   "date": "2014/03/09",
   "description": "Monitor your game connection status from the start menu, so you know when it's safe to start a game without fear of reconnecting to the wrong one.",
-  "display_name": "Menu Connection Monitor",
+  "display_name": "Reconnect Button",
   "enabled": true,
   "forum": null,
-  "id": "menu_connection_monitor",
-  "identifier": "com.wondible.pa.menu_connection_monitor",
+  "id": "reconnect_button",
+  "identifier": "com.wondible.pa.reconnect_button",
   "priority": 100,
   "requires": [],
   "scenes": {
     "start": [
-      "coui://ui/mods/menu_connection_monitor/menu_connection_monitor.js"
+      "coui://ui/mods/reconnect_button/start.js"
     ]
   },
   "signature": "not yet implemented",

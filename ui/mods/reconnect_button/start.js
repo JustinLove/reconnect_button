@@ -8,10 +8,10 @@
     });
   };
 
-  loadTemplate($('#navigation_items'), '../../mods/menu_connection_monitor/menu_connection_monitor.html', model);
+  loadTemplate($('#navigation_items'), '../../mods/reconnect_button/reconnect_button.html', model);
   
 
-  model.monitorReconnect = function() {
+  model.reconnectButtonStart = function() {
     if (model.lobbyId()) {
       model.joinGame(model.lobbyId());
     }
