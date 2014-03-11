@@ -5,11 +5,11 @@
     "ui"
   ],
   "context": "client",
-  "date": "2014/03/09",
+  "date": "2014/03/11",
   "description": "Provides a Reconnect button on the start menu.  When it's disabled, you know it's safe to start a game without fear of reconnecting to the wrong one.",
   "display_name": "Reconnect Button",
   "enabled": true,
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/wip-reconnect-button.57733/",
   "id": "reconnect_button",
   "identifier": "com.wondible.pa.reconnect_button",
   "priority": 100,
@@ -20,5 +20,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.0.0"
+  "version": "1.0.0"
 }
