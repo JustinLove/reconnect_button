@@ -8,7 +8,7 @@
     });
   };
 
-  loadTemplate($('#navigation_items'), '../../mods/reconnect_button/reconnect_button.html', model);
+  loadTemplate($('#navigation_items'), 'coui://ui/mods/reconnect_button/reconnect_button.html', model);
   
 
   model.reconnectButtonStart = function() {

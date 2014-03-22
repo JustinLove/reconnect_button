@@ -1,11 +1,12 @@
 {
   "author": "wondible",
-  "build": "62519",
+  "build": "63180",
   "category": [
-    "ui"
+    "ui",
+    "main menu"
   ],
   "context": "client",
-  "date": "2014/03/11",
+  "date": "2014/03/21",
   "description": "Provides a Reconnect button on the start menu.  When it's disabled, you know it's safe to start a game without fear of reconnecting to the wrong one.",
   "display_name": "Reconnect Button",
   "enabled": true,
@@ -20,5 +21,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
