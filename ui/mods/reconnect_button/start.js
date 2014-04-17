@@ -1,6 +1,8 @@
 (function() {
+  "use strict"
+
   //load html dynamically
-  loadTemplate = function (element, url, model) {
+  var loadTemplate = function (element, url, model) {
     $.get(url, function (html) {
       console.log("Loading html " + url);
       element.append(html)
@@ -9,7 +11,9 @@
   };
 
   loadTemplate($('#navigation_items'), 'coui://ui/mods/reconnect_button/reconnect_button.html', model);
-  
+  model.lobbyId.subscribe(function(lobbyId) {
+    sessionStorage['lobbyId'] = encode(lobbyId);
+  })
 
   model.reconnectButtonStart = function() {
     if (model.lobbyId()) {

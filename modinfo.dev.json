@@ -1,12 +1,12 @@
 {
   "author": "wondible",
-  "build": "63180",
+  "build": "63475",
   "category": [
     "ui",
     "main menu"
   ],
   "context": "client",
-  "date": "2014/03/21",
+  "date": "2014/04/13",
   "description": "Provides a Reconnect button on the start menu.  When it's disabled, you know it's safe to start a game without fear of reconnecting to the wrong one.",
   "display_name": "Reconnect Button",
   "enabled": true,
@@ -18,8 +18,14 @@
   "scenes": {
     "start": [
       "coui://ui/mods/reconnect_button/start.js"
+    ],
+    "live_game": [
+      "coui://ui/mods/reconnect_button/live_game.js"
+    ],
+    "server_browser": [
+      "coui://ui/mods/reconnect_button/server_browser.js"
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.1"
+  "version": "2.0.0"
 }
