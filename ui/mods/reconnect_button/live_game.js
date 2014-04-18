@@ -14,7 +14,7 @@
 
   model.reconnectButtonReset = function() {
 
-    if( model.haveUberNet )
+    if( model.haveUberNet() )
         model.abandon();
     model.disconnect();
 
