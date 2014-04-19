@@ -13,7 +13,6 @@
   loadTemplate($('.div_options_bar_cont'), 'coui://ui/mods/reconnect_button/reconnect_live_game.html', model);
 
   model.reconnectButtonReset = function() {
-
     if( model.haveUberNet() )
         model.abandon();
     model.disconnect();
@@ -39,6 +38,7 @@
           //window.location.href = 'coui://ui/main/game/connect_to_game/connect_to_game.html';
       }).fail(function (data) {
           console.log('join game:fail');
+          model.navToMainMenu()
       })
     }, 1000)
   }
