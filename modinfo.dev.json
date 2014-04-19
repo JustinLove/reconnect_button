@@ -6,8 +6,8 @@
     "main menu"
   ],
   "context": "client",
-  "date": "2014/04/13",
-  "description": "Provides a Reconnect button on the start menu.  When it's disabled, you know it's safe to start a game without fear of reconnecting to the wrong one.",
+  "date": "2014/04/19",
+  "description": "Provides a Reconnect button on the start menu when you are still assigned to a game.  A reconnect option is also provided in the live game ESC menu which will attempt to restore a disconnected session.",
   "display_name": "Reconnect Button",
   "enabled": true,
   "forum": "https://forums.uberent.com/threads/wip-reconnect-button.57733/",
