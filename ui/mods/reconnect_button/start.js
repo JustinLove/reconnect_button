@@ -2,11 +2,12 @@
   "use strict"
 
   //load html dynamically
-  var loadTemplate = function (element, url, model) {
+  var loadTemplate = function ($element, url, model) {
     $.get(url, function (html) {
       console.log("Loading html " + url);
-      element.append(html)
-      ko.applyBindings(model, element.get(0));
+      var $item = $(html)
+      ko.applyBindings(model, $item.get(0));
+      $element.append($item)
     });
   };
 
