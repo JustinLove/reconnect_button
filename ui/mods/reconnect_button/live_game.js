@@ -1,16 +1,7 @@
 (function() {
   "use strict"
 
-  //load html dynamically
-  var loadTemplate = function (element, url, model) {
-    $.get(url, function (html) {
-      console.log("Loading html " + url);
-      element.append(html)
-      ko.applyBindings(model, element.get(0));
-    });
-  };
-
-  loadTemplate($('.div_options_bar_cont'), 'coui://ui/mods/reconnect_button/reconnect_live_game.html', model);
+  model.menuConfig.push({label: 'Reconnect', action: 'reconnectButtonReset'})
 
   model.reconnectButtonReset = function() {
     if( model.haveUberNet() )
