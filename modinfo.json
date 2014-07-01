@@ -1,12 +1,12 @@
 {
   "author": "wondible",
-  "build": "67523",
+  "build": "68253",
   "category": [
     "ui",
     "main menu"
   ],
   "context": "client",
-  "date": "2014/06/29",
+  "date": "2014/07/01",
   "description": "Provides a Reconnect button on the start menu when you are still assigned to a game.  A reconnect option is also provided in the live game ESC menu which will attempt to restore a disconnected session.",
   "display_name": "Reconnect Button",
   "forum": "https://forums.uberent.com/threads/wip-reconnect-button.57733/",
@@ -24,5 +24,5 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "2.0.1"
+  "version": "2.1.0"
 }
